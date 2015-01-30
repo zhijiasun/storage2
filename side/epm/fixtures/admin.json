@@ -1,0 +1,92 @@
+[
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "jasonsun", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2014-07-11T14:06:01.789Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$M3fnxg2ak8VJ$BFW4cjSt1jlDEQD5UjGQcSz+x8mdDot90dkYiB7kqgY=", 
+        "email": "fads@fdjl.com", 
+        "date_joined": "2014-07-11T10:05:54.944Z"
+    }
+},
+{
+    "pk": 2, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "useranme=test", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": false, 
+        "is_staff": false, 
+        "last_login": "2014-07-11T13:37:00.580Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "!ev3SIki3l2psx2EtUr8rLx20JtDv7CNYLwo7EtJI", 
+        "email": "password=123456", 
+        "date_joined": "2014-07-11T13:37:00.580Z"
+    }
+},
+{
+    "pk": 3, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "test", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": false, 
+        "is_staff": false, 
+        "last_login": "2014-07-11T13:46:56.531Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$3HLOubAuKdvp$AAj7PhX4/OqAVn8Bi1Aqn7wk3rDpm+p6bwjtIB6LSbA=", 
+        "email": "fasd@fdjl.com", 
+        "date_joined": "2014-07-11T13:46:56.531Z"
+    }
+},
+{
+    "pk": 4, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "test1", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": false, 
+        "is_staff": false, 
+        "last_login": "2014-07-11T13:51:14.334Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$wcZQCaSxyYRe$44LFy7sCaFMysUtTdOgVTX8pFPQGKlqzQO0D5Aha2Bk=", 
+        "email": "fasd@fdjl.com", 
+        "date_joined": "2014-07-11T13:51:14.334Z"
+    }
+},
+{
+    "pk": 5, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "abc", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": false, 
+        "is_staff": false, 
+        "last_login": "2014-07-11T14:05:35.042Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$uvBFLnf4TBBN$WOSIInoJi6AiqdsLwk4+tH6Tr1l56KXocSkOJWvee34=", 
+        "email": "", 
+        "date_joined": "2014-07-11T14:05:35.042Z"
+    }
+}
+]

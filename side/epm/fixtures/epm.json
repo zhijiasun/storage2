@@ -1,0 +1,38 @@
+[
+{
+    "pk": 1, 
+    "model": "epm.userprofile", 
+    "fields": {
+        "is_manager": 0, 
+        "real_name": null, 
+        "user": 3, 
+        "real_organization": null, 
+        "is_verified": false, 
+        "real_idcard": null
+    }
+},
+{
+    "pk": 2, 
+    "model": "epm.userprofile", 
+    "fields": {
+        "is_manager": 0, 
+        "real_name": null, 
+        "user": 4, 
+        "real_organization": null, 
+        "is_verified": false, 
+        "real_idcard": null
+    }
+},
+{
+    "pk": 3, 
+    "model": "epm.userprofile", 
+    "fields": {
+        "is_manager": 0, 
+        "real_name": null, 
+        "user": 5, 
+        "real_organization": null, 
+        "is_verified": false, 
+        "real_idcard": null
+    }
+}
+]

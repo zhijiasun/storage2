@@ -1,0 +1,35 @@
+1.注册
+curl -X POST -d "username=test" -d "password=123456" -d "email=test@centling.com" http://115.28.79.151:8081/dangjian/laoshanparty/v1/register/
+
+2.登陆
+curl -X POST -d "username=test" -d "password=123456" -H {'Content-type':'application/json'} http://115.28.79.151:8081/dangjian/laoshanparty/v1/login/
+
+3.党员认证
+curl -X POST -d "real_name=test" -d "real_idcard=370214" http://115.28.79.151:8081/dangjian/laoshanparty/v1/test/member/verify/
+
+4.党组织管理员认证
+curl -X POST -d "real_name=test" -d "real_idcard=370214" -d "party_name=xxx" http://115.28.79.151:8081/dangjian/laoshanparty/v1/test/party/verify/
+
+5.获取用户信息
+curl -X GET http://115.28.79.151:8081/dangjian/laoshanparty/v1/test/info/
+
+6.密码更改
+todo
+
+
+7 curl -X GET http://115.28.79.151:8081/dangjian/laoshanparty/v1/pioneer
+8 curl -X GET http://115.28.79.151:8081/dangjian/laoshanparty/v1/lifetips
+9 curl -X GET http://115.28.79.151:8081/dangjian/laoshanparty/v1/policy
+10 curl -X GET http://115.28.79.151:8081/dangjian/laoshanparty/v1/spirit
+11 curl -X GET http://115.28.79.151:8081/dangjian/laoshanparty/v1/notice
+12 curl -X GET http://115.28.79.151:8081/dangjian/laoshanparty/v1/process
+13 curl -X POST -d "question_type=1" -d "question_content=fsdfadsf" http://115.28.79.151:8081/dangjian/laoshanparty/v1/test/question/
+14 curl -X GET http://115.28.79.151:8081/dangjian/laoshanparty/v1/test/questions
+15 curl -X GET http://115.28.79.151:8081/dangjian/laoshanparty/v1/test/member/
+partywork
+party
+
+
+curl -X GET http://127.0.0.1:8000/dangjian/laoshanparty/v1/logout/ -H "Authorization: Token xxxxxx"
+curl -X GET http://127.0.0.1:8000/dangjian/laoshanparty/v1/member/ -u username:password
+curl -F "title=fadf" -F "author=fadf" -F "imgfile=@/home/jasonsun/git_repo/side/media/upload/Penguins.jpg" http://135.252.37.114:9981/dangjian/laoshanparty/v1/lifetips

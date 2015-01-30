@@ -1,0 +1,44 @@
+msgid ""                                                                                                                                               
+msgstr ""
+"Project-Id-Version: xadmin-core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-10 10:31+0800\n"
+"PO-Revision-Date: 2013-11-20 10:21+0000\n"
+"Last-Translator: sshwsfc <sshwsfc@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/xadmin/language/zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+
+msgid "Can add %s"
+msgstr "可增加 %s"
+
+msgid "Can change %s"
+msgstr "可修改 %s"
+
+msgid "Can delete %s"
+msgstr "可删除 %s"
+
+msgid "Columns"
+msgstr "列"
+
+msgid "Epm"
+msgstr "业务管理"
+
+msgid "Auth"
+msgstr "系统管理"
+
+msgid "Ams"
+msgstr "APP"
+
+msgid "Search %s"
+msgstr "搜索 %s"
+
+msgid "Search%s"
+msgstr "搜索 %s"
+
+msgid "Import"
+msgstr "导入"
